@@ -4,6 +4,9 @@ require 'rubygems'
 require 'sinatra'
 require 'thin'
 require 'json'
+require 'active_record'
+require 'mysql2'
+require 'validates_email_format_of'
 
 require 'mark_opt_in_api'
 
