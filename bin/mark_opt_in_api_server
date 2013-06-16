@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'sinatra'
+require 'thin'
+require 'json'
+
+require 'mark_opt_in_api'
+
+# otherwise sinatra won't always automagically launch its embedded
+# http server when this script is executed
+set :run, true
