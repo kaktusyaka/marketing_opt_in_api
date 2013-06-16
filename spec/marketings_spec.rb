@@ -18,5 +18,7 @@ describe Marketing do
 
     it { should allow_value('kaktusyaka@gmail.com', 'apapap.dodod@gmail.com').for(:email) }
     it { should_not allow_value('', 'apapap.gmail.com').for(:email) }
+    it { should allow_value('121323432', '12323243545').for(:mobile) }
+    it { should_not allow_value('2123asd3', '', '23123+2131').for(:mobile)  }
   end
 end
