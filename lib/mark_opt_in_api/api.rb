@@ -1,7 +1,3 @@
-get '/' do
-  'Hello World!!!'
-end
-
 post '/marketings' do
   marketing = Marketing.new params[:marketing]
   if marketing.save
