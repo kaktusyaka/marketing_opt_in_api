@@ -5,5 +5,5 @@ gemspec
 
 group :test do
   gem 'rspec'
-  gem 'shoulda-matchers'
+  gem 'shoulda'
 end

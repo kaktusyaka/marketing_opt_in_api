@@ -5,6 +5,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'active_record'
+require "shoulda/matchers"
 require 'validates_email_format_of'
 require 'mark_opt_in_api/database'
 require 'mark_opt_in_api/model'
