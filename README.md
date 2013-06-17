@@ -18,7 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Example Usage:
+
+  Add new record use:
+    MarkOptInApi::Api.add mobile: '1231432432', first_name: 'asdsajhdgaj', last_name: 'ahsdjashgdas', email: 'kaka@gmail.com', company_name: 'sadasdas', channel: 'sms', permission_type: "one-time"
+
+  Update exist record:
+     MarkOptInApi::Api.update 1, {company_name: 'super company'}
+
+     - first param: record id
+     - second param: hash with update information
+
+   Delete
+     MarkOptInApi::Api.delete 1
+
+     - first param: record id
 
 ## Contributing
 
