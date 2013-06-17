@@ -1,7 +1,10 @@
 require "mark_opt_in_api/version"
-require 'mark_opt_in_api/database'
-require 'mark_opt_in_api/model'
-require "mark_opt_in_api/api"
 
 module MarkOptInApi
+  class MarkOptInApi
+    def add
+      response = HTTParty.post('http://localhost:4567/marketings')
+      puts response.body, response.code, response.message, response.headers.inspect
+    end
+  end
 end

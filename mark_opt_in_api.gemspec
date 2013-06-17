@@ -20,14 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency 'rspec', '~> 2.5'
-  spec.add_development_dependency 'shoulda'
-  spec.add_development_dependency 'validates_email_format_of'
 
-  spec.add_dependency "sinatra"
-  spec.add_dependency "thin"
-  spec.add_dependency "json"
-  spec.add_dependency 'mysql2'
-  spec.add_dependency 'activerecord'
-  spec.add_dependency 'validates_email_format_of'
+  spec.add_dependency 'httparty'
 end
