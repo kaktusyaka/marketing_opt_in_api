@@ -38,7 +38,7 @@ Example Usage:
     Configuration:
 
       MarkOptInApi.configure do |config|
-        config.host = 'http://localhost'
+        config.host = 'localhost'
         config.port = 3000
       end
 

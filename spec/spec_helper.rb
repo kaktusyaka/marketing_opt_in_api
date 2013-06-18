@@ -1,7 +1,9 @@
 require 'mark_opt_in_api'
+require 'webmock/rspec'
+include WebMock
 
 MarkOptInApi.configure do |config|
-  config.host = 'http://localhost'
+  config.host = 'localhost'
   config.port = 3000
 end
 

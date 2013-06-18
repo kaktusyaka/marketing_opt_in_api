@@ -8,7 +8,7 @@ module MarkOptInApi
     attr_accessor :host, :port
 
     def initialize
-      self.host = 'http://example.com'
+      self.host = 'localhost'
       self.port = 3000
     end
   end
