@@ -34,6 +34,14 @@ Example Usage:
 
        first param: record id
 
+
+    Configuration:
+
+      MarkOptInApi.configure do |config|
+        config.host = 'http://localhost'
+        config.port = 3000
+      end
+
 ## Contributing
 
 1. Fork it
