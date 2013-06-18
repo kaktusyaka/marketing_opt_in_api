@@ -6,4 +6,5 @@ gemspec
 group :test do
   gem 'rspec'
   gem 'shoulda'
+  gem 'webmock'
 end
